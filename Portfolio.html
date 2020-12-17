@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="specs.css" />
+  </head>
+  <body>
+    <header>
+        <a href="" class="logo">MY PORTFOLIO<span>.</span></a>
+        <ul class="navigation">
+          <li><a href="Landing Page.html">HOME</a></li>
+          <li><a href="Profile.html">MY PROFILE</a></li>
+          <li class="active">PORTFOLIO</a></li>
+          <li><a href="Testimonials.html">TESTIMONIALS</a></li>
+          <li><a href="Rate.html">RATE</a></li>
+        </ul>
+      </header>
+      <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+          const header = document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0);
+        });
+      </script>
+  </body>
+</html>

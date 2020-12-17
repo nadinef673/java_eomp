@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landing page.css" />
+  </head>
+  <body>
+    <header>
+      <a href="" class="logo">NADINE <span>.</span></a>
+      <ul class="navigation">
+        <li class="active">HOME</a></li>
+        <li><a href="Profile.html">MY PROFILE</a></li>
+        <li><a href="Portfolio.html">PORTFOLIO</a></li>
+        <li><a href="Testimonials.html">TESTIMONIALS</a></li>
+        <li><a href="Rate.html">RATE</a></li>
+      </ul>
+    </header>
+    <section class="banner" id="banner">
+      <div class="content">
+        <h2>NADINE JODIE FORTUIN</h2>
+        <p>WELCOME TO MY PROFILE</p>
+        <a href="Contact me.html" class="btn">Contact Me</a>
+      </div>
+    </section>
+
+   
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+  </body>
+</html>
