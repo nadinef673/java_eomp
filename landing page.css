@@ -97,6 +97,7 @@ header .navigation {
 header .navigation li {
   list-style: none;
   margin-left: 30px;
+  color: #ff0157;
 }
 
 header .navigation li a {
