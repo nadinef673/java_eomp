@@ -27,6 +27,7 @@ body {
 }
 
 header {
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
@@ -125,8 +126,8 @@ header .navigation li a:hover {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: white;
+  background-color: black;
+  color: #ff0157;
   transform: rotateY(180deg);
 }
 

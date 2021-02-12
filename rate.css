@@ -105,18 +105,26 @@ header .navigation li a:hover {
 .html {
   width: 90%;
   background-color: #ff0157;
+  align-items: center;
+  justify-content: center;
 }
 .css {
   width: 80%;
   background-color: #808080;
+  align-items: center;
+  justify-content: center;
 }
 .js {
   width: 65%;
   background-color: #ff0157;
+  align-items: center;
+  justify-content: center;
 }
 .python {
   width: 75%;
   background-color: #808080;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill {

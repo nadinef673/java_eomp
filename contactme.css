@@ -129,7 +129,7 @@
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span {
-  color: #e91e63;
+  color: #fff;
   font-size: 12px;
   transform: translateY(-20px);
 }
@@ -236,5 +236,9 @@ header .navigation li a:hover {
 }
 
 .text {
+  color: #ff0157;
+}
+
+.a {
   color: #ff0157;
 }
